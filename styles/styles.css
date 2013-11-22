@@ -1,0 +1,77 @@
+body {
+	background: #f2f2f2;
+	font-family: Arial, sans-serif;
+}
+h1 {
+	font-weight: bold;
+	font-size: 2em;
+	margin: 0;
+}
+dt {
+	font-weight: bold;
+}
+dd {
+	margin: 0;
+}
+#page {
+	margin: 1em auto;
+	max-width: 960px;
+	background: #fff;
+	border: 1px solid #eaeaea;
+	padding: 1em;
+}
+#masthead {
+	background: #ffcdcd;
+	padding: 1em;
+}
+#breadcrumb {
+	margin: 1em 0;
+}
+#breadcrumb .level:before {
+	content: '> ';
+}
+#list-builder {
+	margin: 1em 0;
+	border: 1px dashed #ffd407;
+	background-color: #FFF6CD;
+	height: 10em;
+}
+#list-builder p {
+	line-height: 10em;
+	font-style: italic;
+	text-align: center;
+}
+#tabs {
+}
+#tabs ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#tabs ul li {
+	display: block;
+	width: 33.333%;
+	float: left;
+	text-align: center;
+}
+#tabs ul li a {
+	display: block;
+	padding: 0.5em;
+}
+#tabs ul li a:hover,
+#tabs ul li a:focus {
+	background: #f2f2f2;
+}
+#tabs ul li.ui-state-active {
+	background: #eaeaea;
+}
+.ui-tabs-panel {
+	clear: both;
+	background: #eaeaea;
+	padding: 1em;
+}
+.semantic {
+	position: absolute;
+	left: -999px;
+	top: -999px;
+}
