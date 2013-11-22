@@ -33,7 +33,8 @@ var svg = d3.select("#chart").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.json("data/json-time.php?<?php echo $_SERVER["QUERY_STRING"]; ?>", function(error, data) {
+// to switch from daily to running counts, add/remove "-running" from php file
+d3.json("data/json-time-running.php?<?php echo $_SERVER["QUERY_STRING"]; ?>", function(error, data) {
   data.forEach(function(d) {
     d._id = parseDate(d._id);
     d.downloads = +d.downloads;

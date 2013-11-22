@@ -196,6 +196,7 @@ var svgT = d3.select("#chart").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+// to switch from daily to running counts, add/remove "-running" from php file
 d3.json("data/json-time.php?<?php echo $_SERVER["QUERY_STRING"]; ?>", function(error, data) {
   data.forEach(function(d) {
     d._id = parseDate(d._id);
