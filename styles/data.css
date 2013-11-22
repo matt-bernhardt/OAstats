@@ -1,0 +1,19 @@
+#data {
+	max-height: 20em;
+	overflow: auto;
+	margin: 1em;
+}
+table {
+	width: 100%;
+}
+thead {
+	font-weight: bold;
+	border-bottom: 1px solid #ccc;
+	text-align: left;
+}
+th {
+	padding: 0.5em;
+}
+td {
+	padding: 0.5em;
+}

@@ -1,19 +1,4 @@
-<style type="text/css">
-table {
-	width: 100%;
-}
-thead {
-	font-weight: bold;
-	border-bottom: 1px solid #ccc;
-	text-align: left;
-}
-th {
-	padding: 0.5em;
-}
-td {
-	padding: 0.5em;
-}
-</style>
+<link rel="stylesheet" href="/styles/data.css">
 <?php
 
 // collect possible query parameters

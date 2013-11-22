@@ -1,0 +1,59 @@
+#map {
+  margin: 1em;
+  min-height: 10em; 
+}
+.stroke {
+  fill: none;
+  stroke: #000;
+  stroke-width: 3px;
+}
+
+.fill {
+  fill: #fff;
+}
+
+.graticule {
+  fill: none;
+  stroke: #777;
+  stroke-width: .5px;
+  stroke-opacity: .5;
+}
+
+.land {
+  fill: #222;
+}
+
+.boundary {
+  fill: none;
+  stroke: #fff;
+  stroke-width: .5px;
+}
+
+path.dnull {
+  fill: white;
+  stroke: #ccc;
+}
+path.dl_0 {
+  fill: rgb(242,242,242);
+  stroke: #ccc;
+}
+path.dl_1 {
+  fill: rgb(173,186,206);
+  stroke: #ccc;
+}
+path.dl_2 {
+  fill: rgb(132,152,181);
+  stroke: #ccc;
+}
+path.dl_3 {
+  fill: rgb(90,117,156);
+  stroke: #ccc;
+}
+path.dl_4 {
+  fill: rgb(49,83,132);
+  stroke: #ccc;
+}
+path.dl_5 {
+  fill: rgb(8,48,107);
+  stroke: #ccc;
+}

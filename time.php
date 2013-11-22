@@ -1,25 +1,4 @@
-<style type="text/css">
-#chart {
-  font: 10px sans-serif;
-}
-
-.axis path,
-.axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
-}
-
-.x.axis path {
-  display: none;
-}
-
-.line {
-  fill: none;
-  stroke: steelblue;
-  stroke-width: 1.5px;
-}
-</style>
+<link rel="stylesheet" href="/styles/time.css">
 <div id="chart"></div>
 <script src="http://d3js.org/d3.v3.js"></script>
 <script>
