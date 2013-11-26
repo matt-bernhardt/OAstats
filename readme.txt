@@ -1,1 +1,1 @@
-This is a rough mockup of a reporting interface for an Open Access statistics project.
+This is a rough mockup of a reporting interface for an Open Access statistics project. This project will shortly be superseded by a more official version, but in the meantime it is helpful for working out some UI and Mongo issues.
