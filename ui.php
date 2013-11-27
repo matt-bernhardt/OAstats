@@ -19,6 +19,7 @@ if(isset($_GET["a"])) {
 		<title>Prototype</title>
 		<link rel="stylesheet" href="/styles/reset.css">
 		<link rel="stylesheet" href="/styles/styles.css">
+		<link rel="stylesheet" href="/styles/list-builder.css">
 		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 		<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
@@ -53,9 +54,7 @@ if(isset($_GET["a"])) {
 					<?php }; ?>
 				</p>
 			</div>
-			<div id="list-builder">
-				<p>This will be the list builder UI pattern.</p>
-			</div>
+			<?php require("includes/block_list-builder.php"); ?>
 			<div id="tabs">
 				<ul>
 					<li><a href="data.php?<?php echo $_SERVER["QUERY_STRING"]; ?>">Data</a></li>

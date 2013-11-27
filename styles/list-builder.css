@@ -1,0 +1,21 @@
+.lb {
+	border: 1px solid gray;
+	border-top-width: 5px;
+	width: 45%;
+	display: inline-block;
+}
+.bucket {
+	padding: 0.25em;
+}
+.lb .bucket:before {
+	content: '+ ';
+}
+.ls {
+	border: 1px solid green;
+	border-top-width: 5px;
+	width: 45%;
+	display: inline-block;
+}
+.ls .bucket:before {
+	content: '- ';
+}
